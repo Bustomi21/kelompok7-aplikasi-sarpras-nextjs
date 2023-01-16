@@ -1,0 +1,507 @@
+
+
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    display: block;
+    position: fixed;
+    width: 1370px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background-color: #59C1BD;
+    z-index: 1;
+}
+.header p {
+    display: inline;
+    position: absolute;
+    width: 496px;
+    height: 34px;
+    left: 42px;
+    top: -5px;
+    font-weight: 350;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+}
+.header .login {
+    display: inline;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1100px;
+    top: 13px;
+    background: #3C4048;
+    border-radius: 15px;
+    color:white;
+    border-style: none;
+}
+.header .login:hover{
+    background-color: #D7CFCF;
+    color: #3C4048;
+    transition: 0.7s;
+}
+.header .logout {
+    display: inline;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1230px;
+    top: 13px;
+    background: #3C4048;
+    border-radius: 15px;
+    color:white;
+    border-style: none;
+}
+.header .logout:hover{
+
+    background-color: #D7CFCF;
+    color: #3C4048;
+    transition: 0.7s;
+}
+
+/* sidebar */
+
+.sidebar {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    left: 0px;
+    top: 65px;
+    background: #3C4048;
+    padding-left: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.sidebar img {
+    width:200px;
+    height: 159px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sidebar ul {
+    margin-left: -40px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.sidebar ul li {
+    width: 100%px;
+    height: 40px;
+    list-style: none;
+}
+/* .sidebar ul li a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white; 
+}
+.sidebar ul li a :hover{
+    color: black;
+} 
+.sidebar ul li i {
+    color: white;
+    text-decoration: none;
+}  */
+.sidebar ul li:hover {
+    color:black;
+    background: white;
+    border-radius:50px 0px 0px 50px;
+    padding-top: 5px;
+    padding-left:35px ;
+    transition: 1s;
+    margin-left: -10px;
+}
+
+/* // judul */
+.content {
+    width:1137px ;
+    margin-left: 210px;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    padding: 20px;
+    position: relative;
+}
+.content .judul {
+    display: block;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    margin-top: -20px;
+
+
+
+}
+.content h2 {
+    background-color: white;
+    margin-left: 20px;
+    color: #000000;
+    position: fixed;
+    display: block;
+}
+.data {
+    margin-top: 70px;
+    width: 90%;
+    margin-left: 60px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h3,h4 {
+    width: 100%;
+    text-align: center;
+}
+
+/* card */
+.card {
+    margin-top: 70px;
+    margin-left:20px;
+} 
+.card .card-item {
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+    background-color: #59C1BD ;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+}
+.card .card-item h3 {
+    text-align: center;
+}
+.card .card-item h1 {
+    text-align: center;
+}
+
+.card .card-item p {
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.card .card-item p:hover{
+    text-decoration: underline;
+    color: darkblue;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.down {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #D7CFCF;
+}
+.down .brg {
+    width: 40%;
+
+}
+.down .pjm {
+    display: inline-block;
+    width: 40%;
+
+}
+
+
+/* DATA BARANG */
+
+.modiv {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: block;
+    margin-top: 40px;
+    background-color: white;
+    padding-top: 10px;
+    
+}
+.btn-tambah{
+    position: absolute;
+    display:inline;
+    width: 100px;
+    height: 40px;
+    margin: 5px,5px,10px,5px;
+    background: #3C4048;
+    border-radius: 15px;
+    color:white;
+    border-style: none;
+    margin-bottom: 5px;
+
+}
+.btn-tambah:hover{
+    background-color: #D7CFCF;
+    color: #3C4048;
+    transition: 0.7s;
+}
+
+.modiv form input {
+    margin-left: 650px;
+    margin-right: 5px;
+    display: inline;
+    position: relative;
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+/* .content .isi {
+    width: 100%;
+    margin-top: 10px;
+} */
+
+.content .table-laporan {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 100%;
+    counter-reset: serial-number;
+}
+.content .table-laporan tr:nth-child(even) {
+    background-color:white;
+  }
+
+
+.content table {
+    margin-top: 120px;
+    border-collapse: collapse;
+    width: 100%;
+    counter-reset: serial-number;
+    z-index: -999;
+  }
+
+
+  .content table td:first-child:before {
+    counter-increment: serial-number;  /* Kenaikan penomoran */
+    content: counter(serial-number);  /* Tampilan counter */
+  }
+  
+  th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .btn-aksi {
+    display:inline;
+    width: 70px;
+    height: 30px;
+    background: #3C4048;
+    border-radius: 15px;
+    color:white;
+    border-style: none;
+    margin: 5px;
+
+  }
+  .btn-aksi:hover{
+    background-color: #D7CFCF;
+    color: #3C4048;
+    transition: 0.7s;
+  }
+  .btn-aksi a {
+    text-decoration: none;
+  }
+
+/* form */
+  .kotak{
+      margin: auto;
+      border: none;
+      padding: 50px;
+
+  }
+  .header-fom {
+      width: 800px;
+      margin: auto;
+      border: none;
+      background-color:#59C1BD;
+      padding: 2px 0;
+      border-radius: 15px 15px 0 0;
+  }
+  .header-fom h1{
+      text-align: center;
+      color: aliceblue;
+      font-size: 25px;
+  }
+  .main-fom {
+      width: 800px;
+      margin: auto;
+      border:  none;
+      padding: 30px;
+      box-sizing: border-box;
+      border-radius: 0 0 15px 15px;
+      background-color: rgba(180, 213, 241, 0.247);
+      
+      
+  }
+
+  .header-fom-admin {
+    margin-top: 50px;
+    width: 400px;
+    margin: auto;
+    border: none;
+    background-color:#59C1BD;
+    padding: 2px 0;
+    border-radius: 15px 15px 0 0;
+}
+.header-fom-admin h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+.main-fom-admin {
+    width: 400px;
+    margin: auto;
+    border:  none;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 0 0 15px 15px;
+    background-color: rgba(180, 213, 241, 0.247);
+    
+    
+}
+  
+  
+  
+  .text-fom input {
+      width: 75%;
+      border: none;
+      padding: 5px;
+      background-color: rgba(96, 213, 249, 0.368);
+
+  }
+
+  /* input[name="kdbarang"]{
+      width: 81%;
+      border: none;
+      padding: 5px;
+      background-color: rgba(96, 213, 249, 0.368);
+      
+      
+  }
+  input[name="jmlpinjam"]{
+      width: 81%;
+      border: none;
+      padding: 5px;
+      background-color: rgba(96, 213, 249, 0.368);
+  }
+  input[name="nmpeminjam"]{
+      width: 81%;
+      border: none;
+      padding: 5px;
+      background-color: rgba(96, 213, 249, 0.368);
+  }
+  input[name="keterangan"]{
+      width: 81%;
+      border: none;
+      padding: 5px;
+      background-color: rgba(96, 213, 249, 0.368);
+  } */
+  .date-fom input{
+      width: 200px;
+      border: none;
+      padding: 5px;
+      background-color: rgba(96, 213, 249, 0.368);
+  }
+  /* input[name="tglkembali"]{
+      width: 18%;
+      border: none;
+      padding: 5px;
+      background-color: rgba(96, 213, 249, 0.368);
+  } */
+  .list{
+      list-style-type: none;
+      
+  }
+  .submit {
+      width: 100%;
+      padding: 5px;
+      background-color: #59C1BD;
+      border: none;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      overflow: auto;
+      border-radius: 10px;
+  }
+  .submit:hover{
+      background-color: rgb(112, 215, 249);
+      color: black;
+      transition: 0.5s;
+
+  }
+  .submit-admin {
+    width: 100%;
+    padding: 5px;
+    background-color: #59C1BD;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    overflow: auto;
+    border-radius: 10px;
+}
+.submit-admin:hover{
+    background-color: rgb(112, 215, 249);
+    color: black;
+    transition: 0.5s;
+
+}
+
+
+.export {
+    margin-top: 10px;
+    height: 40px;
+    left: 1230px;
+    top: 13px;
+    background: #3C4048;
+    border-radius: 15px;
+    color:white;
+    border-style: none;
+}
+
+
+
+
+/* footer */
+.footer {
+    height: 40px;
+    width: 1127px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    z-index: 999;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+.isi-footer {
+    color: #3C4048;
+    width: 100%;
+    text-align: center;
+}
+
+.isi-footer a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+  
+
+
+.gagal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gagal h1 {
+    font-size: 50px;
+}
+  
+  
+  

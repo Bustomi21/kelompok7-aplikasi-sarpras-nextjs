@@ -1,0 +1,139 @@
+ 
+.wrapper {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
+}
+.wave {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.container-two {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img {
+    width: 500px;
+}
+.login-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.log form {
+    width: 360px;
+}
+.avatar {
+    width: 100px;
+
+}
+form h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: black;
+}
+.input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #999 ;
+
+}
+
+.input-div.one {
+    margin-top: 0%;
+}
+.input-div.two {
+    margin-bottom: 4px 0;
+}
+.i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i i {
+    color: #999;
+}
+
+.input-div > div {
+    position: relative;
+    height: 45px;
+
+}
+.modiv-login{
+    width: 45%;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.modiv-login .edit {
+    font-size: 13px;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+
+
+}
+.modiv-login .edit:hover{
+    color: darkblue;
+    font-size: 16px;
+    transition: 1s;
+    
+}
+
+.input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: o.5rem 0.7rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+}
+.log .btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right,#0275d8,#0274d8de,#0274d893);
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    background-size: 200%;
+    transition: 1s;
+
+}
+
+.btn:hover {
+    background-position: right;
+} 
